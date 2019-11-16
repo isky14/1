@@ -5,12 +5,69 @@
 <link rel="shortcut icon" href="5.png" />
 <title>Mecanic auto</title>
 <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
 body {
   background-color:#999BC1 ;
 }
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+h1 a {
+    color: #222;
+}
+.halloween {
+    height: 64px;
+    width: 64px;
+    margin: 29px;
+    border: 2px solid white;
+    background: url(./images/3.png);
+}
+
+.halloween-active {
+    background: url(./images/4.png);
+}
+
+</style>
+</head>
+<body>
+
+<ul class="meniu">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="./js/demo/js.html">About</a></li>
+  <li><a href="D:/Desktop/TarileNordice/index.html">Incearca site-ul despre Tarile Nordice</a></li>
+</ul>
 </style>
 
 </head>
+
 <body>
 
  <center>
@@ -83,11 +140,14 @@ Repararea caroseriei automate implică mai puține lucrări cu părțile uleioas
   <p>
 Repararea caroseriei automate implică mai puține lucrări cu părțile uleioase și grase ale vehiculelor, dar implică expunerea la praful de particule provenit din șlefuirea caroseriei și vaporii chimici potențial toxici din vopsea și produse aferente De asemenea, adesea, vânzătorii și dealerii trebuie să dobândească o cunoaștere aprofundată a automobilelor, iar unele mecanici au succes în aceste roluri din cauza cunoștințelor lor. Mecanica auto trebuie, de asemenea, să rămână la curent cu toate companiile auto de top, precum și cu mașinile noi de lansare. Unul trebuie să studieze continuu pe motoarele noi de tehnologie și sistemele lor de lucru.</p>
 
-<h1 style="color:#E8E8E8">Click aici pentru a vedea un site despre Tarile Nordice</h1>
 
-<a href="D:/Desktop/TarileNordice/index.html">Tarile nordice</a>
-
-
+  <div class="container">
+        <audio id="myAudio">
+            <source src="ghost01.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="halloween"></div>
+		
 
   <hr/>
   Acest site apartine lui: Milesan Vlad
@@ -95,8 +155,7 @@ Repararea caroseriei automate implică mai puține lucrări cu părțile uleioas
   
   
   
-  
-  
-</ul>  
+   <script src="./script.js"></script>
+
 </body>
 </html>
